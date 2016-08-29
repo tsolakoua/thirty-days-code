@@ -1,5 +1,4 @@
 package main
-
 import "fmt"
 
 func main() {
@@ -19,7 +18,5 @@ func main() {
 		} else if n > 20 {
 			fmt.Printf("Not Weird")
 		}
-
 	}
-
 }

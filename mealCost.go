@@ -2,7 +2,7 @@ package main
 import "fmt"
 
 func main() {
- //Enter your code here. Read input from STDIN. Print output to STDOUT
+
     var mealCost float32
     var tipPercent float32
     var taxPercent float32

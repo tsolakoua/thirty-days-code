@@ -24,14 +24,13 @@ func main() {
 	scanner := bufio.NewScanner(os.Stdin)
 	for scanner.Scan() {
 
-    query := scanner.Text()
+	query := scanner.Text()
 
-    if _, found := contactBook[query]; found {
-			fmt.Print(query,"=",contactBook[query], "\n")
+	if _, found := contactBook[query]; found {
+		fmt.Print(query,"=",contactBook[query], "\n")
 		} else {
 			fmt.Println("Not found")
 		}
-}
+	}
 	
-
 }
